@@ -35,12 +35,12 @@
             </p>
         </div>
         <div>
-            <form action="mailto:michael.hendrick@itstruckinreal.com" method="POST" enctype="multipart/form-data" name="Contact Form - It's Truckin' Real Website">
+            <form action="mailto:michael.hendrick@itstruckinreal.com?subject=Contact%20Form" method="POST" enctype="text/plain" name="Contact Form - It's Truckin' Real Website">
                 <input type="email" name="email" id="email" required placeholder="Your Email"><br>
                 <input type="text" name="name" id="name" placeholder="Your Name">
                 <input type="tel" name="phone-num" id="phone-num" placeholder="Your Phone Number">
                 <br>  
-                <textarea name="contact-msg" placeholder="Your Message" required></textarea><br>
+                <textarea name="contact-msg" id="contact-msg" placeholder="Your Message" required></textarea><br>
                 <input type="submit" id="submit" value="Submit">
             </form>
         </div>
